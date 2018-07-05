@@ -1,0 +1,48 @@
+
+:host {
+    height: 100%;
+  }
+
+  :host ::ng-deep .ant-layout-header{
+    color: #fff;
+
+  }
+  :host ::ng-deep .ant-layout-footer {
+    background: #7dbcea;
+    color: #fff;
+    text-align: center;
+  }
+
+  :host ::ng-deep .ant-layout-footer {
+    line-height: 1.5;
+  }
+
+  :host ::ng-deep .ant-layout-sider {
+    background: #001529;
+    color: #fff;
+    line-height: 120px;
+  }
+  :host ::ng-deep .cdk-overlay-container::selection{
+      background: red !important;
+      color: white;
+  }
+ :host .ant-menu-vertical .ant-menu-submenu-title{
+   padding: 0px;
+ }
+  :host .nz-menu-item {
+    background: red !important;
+  }
+
+  :host ::ng-deep .ant-layout-content {
+    /* background: rgba(16, 142, 233, 1); */
+    color: #000;
+  }
+
+  :host > ::ng-deep .ant-layout {
+    margin-bottom: 48px;
+    height: 100%;
+  }
+
+  :host ::ng-deep .ant-layout:last-child {
+    margin: 0;
+  }
